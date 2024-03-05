@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 140px;
+    background: red;
+}
+
+.sidebar {
+    background: yellow;
+    height: 1000px;
+    width: 200px;
+    position: absolute;
+}
+
+.content {
+    background: gray;
+    width: 100vw;
+    height: 100vh;
+}
