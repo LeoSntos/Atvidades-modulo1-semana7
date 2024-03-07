@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 190px 1fr;
+    grid-template-columns: 200px;
+    grid-template-areas: 
+                        "sidebar header header"
+                        "sidebar conteudo conteudo"
+                        "sidebar conteudo conteudo";
+}
+
+.header{
+    grid-area: header;
+    background: orange;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: firebrick;
+}
+
+.content{
+    grid-area: conteudo;
+    background: cadetblue;
+}
