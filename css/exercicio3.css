@@ -1,0 +1,113 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left bottom, #eceff4, #e2e9f5, #d8e3f6, #ceddf6, #c4d7f7, #bed2f8, #b9cdf9, #b5c7fa, #b6c0fb, #bab8fa, #c0b0f8, #c7a7f4);
+}
+
+.grid-container {
+    display: grid;
+    height: 100vh;
+    /* grid-template-rows: 190px 1fr;
+    grid-template-columns: 200px; */
+    grid-template-areas: 
+                        "conteudo conteudo conteudo"
+                        "conteudo conteudo conteudo"
+                        "conteudo conteudo conteudo";
+}
+
+.content{
+    grid-area: conteudo;
+    background: #ffffff;
+    margin: 120px 400px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign {
+    display: flex;
+    flex-direction: column;
+    margin: 120px 0px 0px 200px;
+    color: #474747;
+}
+
+.mulherImg {
+    position: relative;
+    margin: 71px 0px 0px 0px;
+}
+
+#title {
+    font-size: 30pt;
+}
+
+#subtitle {
+    font-size: 15pt;
+}
+
+#register-here {
+    text-decoration: none;
+}
+
+.formulario {
+    margin: 180px 0px 0px 0px;
+}
+
+.input-group {
+    padding: 13px 24px;
+    font-size: 13px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d5e2f8;
+}
+
+.btn-group {
+    border-radius: 10px;
+    border: 1px solid ;
+}
+
+#btn-sign {
+    background-color: #1929E0;
+    color: #eceff4;
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 200px;
+}
+
+form .forget {
+    margin-left: 100px;
+}
+
+#or {
+    font-size: 14pt;
+    margin-left: 90px;
+}
+
+.ctn-social {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 200px;
+}
+
+.mt-07 {
+    margin-top: 7px;
+}
+
+.mt-40px {
+    margin-top: 60px;
+}
+
+.fts-9px {
+    font-size: 14px;
+}
+
+.pd-13px-24px{
+    padding: 13px 24px;
+}
