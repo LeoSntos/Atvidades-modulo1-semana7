@@ -1,0 +1,91 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.container {
+    color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* cabecalho */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nome-empresa {
+    font-size: 40pt;
+    margin-right: 750px;
+    color: #FFFFFF;
+}
+
+.menu {
+    font-size: 20pt;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* conteudo */
+
+.content {
+    display: flex;
+}
+
+.imagem-bike {
+    margin: 20px 0px 0px 215px;
+}
+
+#principal {
+    margin: 150px 0px 0px 100px;
+} 
+
+#title {
+    color: #FFFFFF;
+    font-size: 60pt;
+}
+
+#subtitle {
+    color: #B2B2B2;
+    font-size: 20pt;
+}
+
+.btn-choice {
+    padding: 20px 60px;
+    border: none;
+    border-radius: 7px;
+    color: #332200;
+    background-color: #FFBF00;
+    font-size: 20px;
+}
+/* classes gerais */
+
+.mg-side {
+    margin: 0px 30px;
+}
+
+.cl-ylw {
+    color: #FFBF00;
+}
+
+
+
+
+
+
+
+
